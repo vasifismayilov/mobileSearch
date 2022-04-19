@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.search{
+    width: 100%;
+    height: 110vh;
+    background: linear-gradient(45deg, red, blue);
+    .filter{
+        .head{
+            font-size: 35px;
+            font-weight: 900;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding-top: 1rem;
+        }
+        .result{
+            background: linear-gradient(45deg, blue,red);
+            border-radius: 50px;
+            width: 600px;
+            margin:20px auto;
+            h2{
+                text-align: center;
+                font-size: 25px;
+                font-weight: 900;
+                color: white;
+            }
+            p{
+                text-align: center;
+                font-size: 35px;
+                color: white;
+                font-weight: 900;
+            }
+        }
+        .head2{
+            font-size: 25px;
+            font-weight: 900;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            margin-top: 20px;
+        }
+        .features{
+            width: auto;
+            height: 470px;
+            border-radius: 20px;
+            background: linear-gradient(90deg, rgba(223,170,34,1) 15%, rgba(48,212,255,1) 85%);
+            .form{
+                text-align: center;
+               .models{
+                   #phones{
+                       width: 300px;
+                       height: 30px;
+                       border-radius: 5px;
+                       background: linear-gradient(90deg, rgba(34, 53, 223, 0.471) 15%, rgba(255, 48, 48, 0.455) 85%);                       border: 0px;
+                   }
+               } 
+            }
+            .colors{
+                h1{
+                    font-size: 25px;
+                    font-weight: 800;
+                    color: rgb(38, 38, 38);
+                    text-align: center;
+                }
+               ul{
+                   li{
+                       margin-top: 20px;
+                       width: 70px;
+                       height: 70px;
+                       border-radius: 50%;
+                       border: 4px solid rgb(58, 58, 58);
+                       list-style:none;
+                       cursor: pointer;
+                   }
+               } 
+            }
+            .price-choose{
+                text-align: center;
+                p{
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+                input{
+                    width: 300px;
+                    margin: auto;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.results{
+width: 100%;
+height: auto;
+background: linear-gradient(45deg, rgba(0, 0, 255, 0.336), rgba(255, 0, 0, 0.336));
+.card {
+    cursor: pointer;
+    width: 390px;
+    margin: 100px 25px;
+    height: 454px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 255, .2);
+    transition: all .2s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+   }
+   
+   .card:hover {
+    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
+   }
+   h3{
+       font-size: 20px;
+       text-align: center;
+       font-weight: 800;
+   }
+   p{
+       font-weight: 800;
+       text-align: center;
+   }
+}
+
